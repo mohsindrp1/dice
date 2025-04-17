@@ -1,0 +1,61 @@
+.container{
+    text-align: center;
+
+}
+
+.dice{
+    display: inline-block;
+    margin :20px ;
+    text-align: center;
+
+}
+
+.dice p{
+    
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+
+
+h1{
+    background-color: lightgreen;
+    color: green;
+}
+
+h2{
+    color: yellow;
+    font-size: 3rem;
+}
+
+
+
+
+.dice img{
+    width: 200px ;
+}
+
+body {
+    
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  
+  @media(max-widht :600px){
+    .container{
+        font-family: 1.5rem;
+
+    }
+    .dice{
+        display: block;
+        margin: 10px auto;
+    }
+
+    .dice img{
+
+        width: 150px;
+
+    }
+  }
+  
